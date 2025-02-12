@@ -1,4 +1,4 @@
-name: myenv
+name: jims-ml-p3.10
 channels:
   - conda-forge
   - defaults

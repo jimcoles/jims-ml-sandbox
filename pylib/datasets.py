@@ -33,4 +33,4 @@ def build_ds_programmatic():
     {'user': u, 'products_purchased': p}, tf.random.uniform(shape=(10,), minval=0, maxval=50, dtype=tf.int32)))
     # Train the model
     model.fit(train_dataset.batch(10), epochs=5)
-
+    return products
