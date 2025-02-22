@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tf_layers"                    # Project name (replace as desired)
+version = "0.1.0"                     # Initial version
+description = "A collection of customizable TensorFlow layer sequences." # Project description
+readme = "README.md"                  # Documentation file
+license = { file = "LICENSE" }        # License placeholder
+authors = [{ name = "James K. Coles", email = "jameskcoles@gmail.com" }] # Author information
+dependencies = [
+    "tensorflow",
+]                                    # List required dependencies here
+
+[tool.setuptools.packages.find]
+where = ["."]

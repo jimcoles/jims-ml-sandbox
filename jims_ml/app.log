@@ -1,0 +1,21 @@
+2025-02-15 17:48:53,631 [CRITICAL] fatal logged
+2025-02-15 17:48:53,631 [ERROR] exception logged
+NoneType: None
+2025-02-15 17:48:53,631 [CRITICAL] critical logged
+2025-02-15 17:48:53,632 [ERROR] error logged
+2025-02-15 17:48:53,632 [WARNING] warning logged
+2025-02-15 17:48:53,632 [INFO] info logged
+2025-02-15 18:05:21,385 [CRITICAL] fatal logged
+2025-02-15 18:05:21,386 [ERROR] exception logged
+NoneType: None
+2025-02-15 18:05:21,386 [CRITICAL] critical logged
+2025-02-15 18:05:21,386 [ERROR] error logged
+2025-02-15 18:05:21,386 [WARNING] warning logged
+2025-02-15 18:05:21,387 [INFO] info logged
+2025-02-15 18:17:08,757 [CRITICAL] fatal logged
+2025-02-15 18:17:08,758 [ERROR] exception logged
+NoneType: None
+2025-02-15 18:17:08,759 [CRITICAL] critical logged
+2025-02-15 18:17:08,759 [ERROR] error logged
+2025-02-15 18:17:08,759 [WARNING] warning logged
+2025-02-15 18:17:08,759 [INFO] info logged

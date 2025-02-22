@@ -2,7 +2,7 @@
 
 import unittest
 
-from pylib.log_util import logger
+from jims_ml.log_util import logger
 
 
 class MyTestCase(unittest.TestCase):
