@@ -5,18 +5,16 @@ and model training for recommendation systems. This also includes functionality 
 available in tensorflow_datasets.
 """
 
-import numpy as np
 import tensorflow as tf
 import tensorflow_datasets as tfds
-
-keras = tf.keras
-
+import numpy as np
+import keras
 
 def greet(name):
     return f"Hello, {name}!"
 
 
-def build_ds_programmatic() -> tf.keras.Model:
+def build_ds_programmatic() -> keras.Model:
     """
     """
     users = tf.constant([f'user_{i}' for i in range(100)])
@@ -32,19 +30,19 @@ def build_ds_programmatic() -> tf.keras.Model:
 
     # Define the model
     keras_user_input = keras.layers.Input(shape=(), dtype=tf.string, name="user")
-    keras_product_input = tf.keras.layers.Input(shape=(None,), dtype=tf.string, name="products_purchased")
-    keras_input_embedder = tf.keras.layers.Embedding(input_dim=50, output_dim=8, mask_zero=True)
+    keras_product_input = keras.layers.Input(shape=(None,), dtype=tf.string, name="products_purchased")
+    keras_input_embedder = keras.layers.Embedding(input_dim=50, output_dim=8, mask_zero=True)
     keras_product_embedding = keras_input_embedder(keras_product_input)
-    product_avg_pooling = tf.keras.layers.GlobalAveragePooling1D()(keras_product_embedding)
-    another_embedder = tf.keras.layers.Embedding(input_dim=100, output_dim=8)
-    keras_all_layers = tf.keras.layers.Concatenate()(
+    product_avg_pooling = keras.layers.GlobalAveragePooling1D()(keras_product_embedding)
+    another_embedder = keras.layers.Embedding(input_dim=100, output_dim=8)
+    keras_all_layers = keras.layers.Concatenate()(
         [
             #            another_embedder(tf.strings.to_hash_bucket_fast(keras_user_input, num_buckets=100)),
             product_avg_pooling
         ]
     )
-    output = tf.keras.layers.Dense(10, activation="softmax")(keras_all_layers)  # Predict 10 recommended products
-    model = tf.keras.Model(inputs=[keras_user_input, keras_product_input], outputs=output)
+    output = keras.layers.Dense(10, activation="softmax")(keras_all_layers)  # Predict 10 recommended products
+    model = keras.Model(inputs=[keras_user_input, keras_product_input], outputs=output)
 
     # Compile the model
     model.compile(optimizer="adam", loss="sparse_categorical_crossentropy", metrics=["accuracy"])
@@ -64,15 +62,13 @@ def keras_tensor_to_tf_tensor(keras_tensor):
     return tf.convert_to_tensor(keras_tensor)
 
 
-def list_all_datasets():
+def dump_dataset_info():
     """
     Lists all available datasets in tensorflow_datasets.
     """
-    return tfds.list_builders()
-
-import tensorflow as tf
-import tensorflow_datasets as tfds
-import numpy as np
+    dataset_list = tfds.list_builders()
+    print(f"Total datasets available: {len(dataset_list)}")
+    print(f"A few available datasets: {dataset_list[:10]} ...")  # Show the first 10 datasets
 
 def dataset_to_numpy_dict(dataset):
     """
@@ -92,3 +88,16 @@ def dataset_to_numpy_dict(dataset):
     }
     return features_dict
 
+
+# Display detailed information of datasets without downloading
+def display_dataset_info(dataset_name):
+    builder = tfds.builder(dataset_name)  # Create dataset builder object
+    dataset_info = builder.info  # Retrieve dataset info
+
+    print(f"\nDataset: {dataset_name}")
+    print(f"Description: {dataset_info.description}")
+    print(f"Features: {dataset_info.features}")
+    print(f"Supervised keys: {dataset_info.supervised_keys}")
+    print(f"Splits: {dataset_info.splits}")
+    print(f"Dataset size: {dataset_info.dataset_size} bytes")
+    print(f"Citation: {dataset_info.citation}")

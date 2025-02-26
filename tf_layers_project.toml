@@ -11,6 +11,7 @@ license = { file = "LICENSE" }        # License placeholder
 authors = [{ name = "James K. Coles", email = "jameskcoles@gmail.com" }] # Author information
 dependencies = [
     "tensorflow",
+    "keras"
 ]                                    # List required dependencies here
 
 [tool.setuptools.packages.find]

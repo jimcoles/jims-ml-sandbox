@@ -1,0 +1,13 @@
+
+Are there external GPU devices? Maybe just a mac mini w/ GPU.
+
+What does a well-spec'd ML big data machine setup look like? For dev. For production?
+
+Who hosts chatgpt? How is it hosted?
+
+What is 'serverless' really? That just means that i don't deploy the server; just the bit that plugs
+in.
+
+What is 'notebook' vs jupyter?
+
+Is there a low-level tf way that does not use keras.

@@ -80,9 +80,9 @@ class RunBatch:
         model_test.model.fit(self.x_train, self.y_train, epochs=model_test.fit_epochs, verbose=1)
         print("\n")
 
-        test_loss, test_acc = model_test.model.evaluate(self.x_test,  self.y_test, verbose=2)
+        loss_and_accuracy_map = model_test.model.evaluate(self.x_test,  self.y_test, verbose=2)
 
-        return RunResult().set_eval_result({test_loss, test_acc})
+        return RunResult().set_eval_result(loss_and_accuracy_map)
 
 
 class RunResult:

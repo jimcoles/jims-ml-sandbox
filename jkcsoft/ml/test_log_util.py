@@ -2,7 +2,7 @@
 
 import unittest
 
-from jims_ml.log_util import logger
+from jkcsoft.log_util import logger
 
 
 class MyTestCase(unittest.TestCase):

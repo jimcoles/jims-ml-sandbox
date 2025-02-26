@@ -1,19 +1,8 @@
 #
 #  Copyright (c) 2025 James K. Coles (jameskcoles@gmail.com). All rights reserved.
 #
-
-# The following import suggested by AI did not resolve by PC although it resolved at runtime
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    # These imports only affect an IDE like PyCharm
-    from keras.src.models.sequential import Sequential
-    from keras.src.layers.normalization import BatchNormalization
-else:
-    # At runtime
-    from tensorflow.keras.layers import Dense, Input, Dropout, BatchNormalization  # type: ignore
-    from tensorflow.keras import Sequential  # type: ignore
-
+from keras import Input
+from keras.src.models.sequential import Sequential
 
 # Function to dynamically create a model using a selected layer sequence
 def create_and_compile_model(layer_sequence: Sequential):
