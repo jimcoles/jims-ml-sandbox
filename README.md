@@ -1,5 +1,7 @@
 # Jim's Machine Learning Notebook
 
+Test of git push from clean env
+
 ### My Python Environment
 
 Python is king in the ML world.
