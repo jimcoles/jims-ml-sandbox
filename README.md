@@ -165,6 +165,7 @@ Datasets from tensorflow_datasets are of type tf.data.Dataset (and optional tfds
 
 ### Problems
 
+---
 #### Problem 1: A predictive n-dimensional data point model
 
 Description: Load a 2D x, y datapoint set that is roughly quadratic and have the model generate y
@@ -178,7 +179,24 @@ Variants:
 * Use this simple case as a way to understand standard Keras layers
 * Write a custom Keras layer, possibly a finite element solver
 
-#### Problem 2: App Suggester
+
+
+
+
+Train: Associate text descriptions with 2D images
+Output: 2D bitmaps that fit a query. The model assembles images
+wherein keywords in the query are matched to
+
+---
+#### Problem 4: Local Document knowledge store
+
+A model takes in a bunch of general information in the form of source and word documents, emails.
+The model can then 'search' for concepts, present them by data, author,
+source document.
+
+Provide a timeline of documents on a given subject.
+
+For example, a set of state laws and regulations.
 
 Instead of a simple statistical model in which the applications are just the most commonly used, this will factor in day
 of the week time of day animal favor, recent history over older history
@@ -187,19 +205,7 @@ of the week time of day animal favor, recent history over older history
 - Location GPS
 - Day of week
 
-#### Problem 3: Generate full 2K bitmaps from textual descriptions
 
-Train: Associate text descriptions with 2D images
-Output: 2D bitmaps that fit a query. The model assembles images
-wherein keywords in the query are matched to
-
-#### Problem 4: Local Document knowledge store
-
-A model takes in a bunch of general information in the form of source and word documents, emails.
-The model can then 'search' for concepts, present them by data, author,
-source document.
-
-For example, a set of state laws and regulations.
 
 #### Problem 5: Voice and Music generator
 
