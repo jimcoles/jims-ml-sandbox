@@ -1,2 +1,5 @@
 /.venv/
-/.git-backup-2/
+/.git-backup*/
+**/__pycache__
+**/*.png
+**/*.keras

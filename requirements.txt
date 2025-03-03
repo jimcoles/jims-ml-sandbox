@@ -16,7 +16,7 @@ notebook==7.3.2
 numpy~=1.26.4
 openai==1.63.0
 optimum==1.24.0
-pandas~=2.0.3
+pandas~=2.2.3
 pandasgui==0.2.14
 Pint~=0.24.4
 pip-chill==1.0.3
@@ -41,3 +41,6 @@ webcolors==24.11.1
 zipp==3.21.0
 
 
+
+vaex~=4.17.0
+duckdb~=1.2.0
