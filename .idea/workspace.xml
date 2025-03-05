@@ -4,46 +4,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env.ipynb" afterDir="false" />
+    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="I refreshed my pycharm env">
+      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env_1.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_scipy_signals.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_scipy_stats.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/python/test_format.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements-hf.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/JKC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/machine-learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims-ml-hf-deepseek.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims-ml-hf.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf_deepseek.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf_deepseek.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/p01-huggingface.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/p01_huggingface.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/p01_huggingface.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/python/best_statistics_lib_for_ml.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/best_statistics_lib_for_ml.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/python/external/cs231n_python_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/external/cs231n_python_colab.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/python/external/scipy_Interpolation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/external/scipy_Interpolation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/tensorflow/jims_ml_tensorflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/tensorflow/jims_ml_tensorflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/python/jims_python_statistics.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt.1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jimcoles"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jimcoles&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jimcoles/jims-ml-sandbox.git",
-    "accountId": "aafa6680-530c-4531-a80e-c9460a871cf9"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jimcoles/jims-ml-sandbox.git&quot;,
+    &quot;accountId&quot;: &quot;aafa6680-530c-4531-a80e-c9460a871cf9&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2toc4gnYbrpYtSqe3q7GWGDeEzm" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -52,8 +76,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Jupyter Keras2 8890.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "devcontainer.show.open.project.notification": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/jcoles/Source/jkc/jims-ml-sandbox",
     "node.js.detected.package.eslint": "true",
@@ -63,6 +90,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.jupyter.core.jupyter.connections.configuration.JupyterServerConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -104,6 +132,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Jupyter Keras2 8890" type="PythonConfigurationType" factoryName="Python">
+      <module name="jims-ml-sandbox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.10 virtualenv at ~/Source/jkc/jims-ml-sandbox/.venv-keras2" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="jupyter" />
+      <option name="PARAMETERS" value="notebook --port 8890" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -122,31 +174,95 @@
       <option name="presentableId" value="Default" />
       <updated>1741021677928</updated>
       <workItem from="1741021679047" duration="575000" />
+      <workItem from="1741022265789" duration="19788000" />
+      <workItem from="1741099232405" duration="10814000" />
+      <workItem from="1741110250022" duration="7484000" />
+      <workItem from="1741117763717" duration="6371000" />
+      <workItem from="1741136467762" duration="4176000" />
+      <workItem from="1741185537989" duration="9469000" />
     </task>
+    <task id="LOCAL-00001" summary="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb.">
+      <option name="closed" value="true" />
+      <created>1741044851943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741044851943</updated>
+    </task>
+    <task id="LOCAL-00002" summary="I refreshed my pycharm env">
+      <option name="closed" value="true" />
+      <created>1741045115076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741045115076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="I refreshed my pycharm env">
+      <option name="closed" value="true" />
+      <created>1741045146968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741045146968</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb." />
+    <MESSAGE value="I refreshed my pycharm env" />
+    <option name="LAST_COMMIT_MESSAGE" value="I refreshed my pycharm env" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/jims_ml_notebook_env.ipynb</url>
-          <line>19</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
-          <line>115</line>
+          <line>120</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
+          <line>403</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
+          <line>322</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/python/jims_scipy_signals.ipynb</url>
+          <line>61</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/python/test_format.ipynb</url>
+          <line>10</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/python/jims_scipy_stats.ipynb</url>
+          <line>12</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb</url>
+          <line>15</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/jims_ml_sandbox$Jupyter_Keras2_8890.coverage" NAME="Jupyter Keras2 8890 Coverage Results" MODIFIED="1741190992572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
