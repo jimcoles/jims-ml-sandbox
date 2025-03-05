@@ -4,30 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="I refreshed my pycharm env">
-      <change afterPath="$PROJECT_DIR$/.idea/jupyter-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env_1.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_scipy_signals.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_scipy_stats.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/python/test_format.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements-hf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" afterDir="false" />
+    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims-ml-hf-deepseek.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims-ml-hf.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf_deepseek.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf_deepseek.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/p01-huggingface.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/huggingface/p01_huggingface.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/huggingface/p01_huggingface.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/python/best_statistics_lib_for_ml.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/best_statistics_lib_for_ml.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/python/external/cs231n_python_colab.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/external/cs231n_python_colab.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/python/external/scipy_Interpolation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/external/scipy_Interpolation.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/python/jims_python_statistics.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt.1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +68,7 @@
     "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.jupyter.core.jupyter.connections.configuration.JupyterServerConfigurable",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -179,7 +157,8 @@
       <workItem from="1741110250022" duration="7484000" />
       <workItem from="1741117763717" duration="6371000" />
       <workItem from="1741136467762" duration="4176000" />
-      <workItem from="1741185537989" duration="9469000" />
+      <workItem from="1741185537989" duration="12218000" />
+      <workItem from="1741203826050" duration="143000" />
     </task>
     <task id="LOCAL-00001" summary="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb.">
       <option name="closed" value="true" />
@@ -205,16 +184,36 @@
       <option name="project" value="LOCAL" />
       <updated>1741045146968</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel.">
+      <option name="closed" value="true" />
+      <created>1741201508417</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741201508417</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb." />
     <MESSAGE value="I refreshed my pycharm env" />
-    <option name="LAST_COMMIT_MESSAGE" value="I refreshed my pycharm env" />
+    <MESSAGE value="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
