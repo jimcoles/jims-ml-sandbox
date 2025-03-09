@@ -4,8 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel.">
+    <list default="true" id="ae428969-90b8-4367-9ede-fe7279d6cf2c" name="Changes" comment="New git binary works better?">
+      <change afterPath="$PROJECT_DIR$/jkcsoft/ml/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_scipy.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/python/jims_sympy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jims-ml-sandbox.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/developing-models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/external-ml-github-projects.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/using-canned-models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/using-pre-trained-models.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/keras_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/keras_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/log_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/test_log_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/tests/test_log_util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/test_tf_models_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/tests/test_tf_models_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/test_tfds_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/tests/test_tfds_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/tf_models_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/tf_models_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jkcsoft/ml/tfds_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/jkcsoft/ml/tensorflow_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/jims_ml_notebook_env.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/keras/jims_ml_keras_funcky.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/keras/jims_ml_keras_funcky.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/openai/jims-ml-openai.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/openai/jims_ml_openai.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/python/jims_pandas_data_ops.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/jims_pandas_data_ops.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/pytorch/jims-ml-pytorch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/pytorch/jims_ml_pytorch.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/scikit/jims-ml-scikit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/scikit/jims_ml_scikit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/tensorflow/external/ml_mastery_dot_com.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/tensorflow/external/ml_mastery_dot_com.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/tensorflow/jims_ml_tensorflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/tensorflow/jims_ml_tensorflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/tensorflow/p01_tensorflow.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/tensorflow/p01_tensorflow.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/visualization/dataset-visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/visualization/dataset-visualization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +50,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Jupyter Notebook" />
       </list>
     </option>
@@ -47,31 +78,43 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2toc4gnYbrpYtSqe3q7GWGDeEzm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Jupyter Keras2 8890.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "devcontainer.show.open.project.notification": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/jcoles/Source/jkc/jims-ml-sandbox",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DataGrid.QuickDoc.View&quot;: &quot;TRANSPOSED&quot;,
+    &quot;Python.Jupyter Keras2 8890.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;devcontainer.show.open.project.notification&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/jcoles/Source/jkc/jims-ml-sandbox&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notebooks/tensorflow" />
+      <recent name="$PROJECT_DIR$/jkcsoft/ml/tests" />
+      <recent name="$PROJECT_DIR$/notebooks" />
+      <recent name="$PROJECT_DIR$/doc" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
@@ -110,30 +153,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Jupyter Keras2 8890" type="PythonConfigurationType" factoryName="Python">
-      <module name="jims-ml-sandbox" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.10 virtualenv at ~/Source/jkc/jims-ml-sandbox/.venv-keras2" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="jupyter" />
-      <option name="PARAMETERS" value="notebook --port 8890" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="true" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -158,7 +177,15 @@
       <workItem from="1741117763717" duration="6371000" />
       <workItem from="1741136467762" duration="4176000" />
       <workItem from="1741185537989" duration="12218000" />
-      <workItem from="1741203826050" duration="143000" />
+      <workItem from="1741203826050" duration="10033000" />
+      <workItem from="1741228635100" duration="802000" />
+      <workItem from="1741271101283" duration="13510000" />
+      <workItem from="1741297342598" duration="11067000" />
+      <workItem from="1741312921901" duration="5320000" />
+      <workItem from="1741318939412" duration="2559000" />
+      <workItem from="1741353486454" duration="36429000" />
+      <workItem from="1741445683370" duration="9469000" />
+      <workItem from="1741549022649" duration="6062000" />
     </task>
     <task id="LOCAL-00001" summary="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb.">
       <option name="closed" value="true" />
@@ -192,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741201508417</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New git binary works better?">
+      <option name="closed" value="true" />
+      <created>1741204473613</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741204473613</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +248,8 @@
     <MESSAGE value="More useful snippets of math in jims_python_math.ipynb and jims_pandas_coordinate_style.ipynb." />
     <MESSAGE value="I refreshed my pycharm env" />
     <MESSAGE value="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created new keras 2 (old) env for hugging face notebooks. Also new ipykernel. Associated all hug face notebooks with new kernel." />
+    <MESSAGE value="New git binary works better?" />
+    <option name="LAST_COMMIT_MESSAGE" value="New git binary works better?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -222,21 +258,6 @@
           <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
           <line>11</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
-          <line>120</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
-          <line>403</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/python/jims_python_math.ipynb</url>
-          <line>322</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/notebooks/python/jims_scipy_signals.ipynb</url>
@@ -249,14 +270,19 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/python/jims_scipy_stats.ipynb</url>
-          <line>12</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>file://$PROJECT_DIR$/notebooks/huggingface/jims_ml_hf.ipynb</url>
           <line>15</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/notebooks/tensorflow/p01_tensorflow.ipynb</url>
+          <line>49</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/jkcsoft/ml/keras_utils.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

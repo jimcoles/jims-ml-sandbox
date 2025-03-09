@@ -9,6 +9,8 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 import numpy as np
 import keras
+from keras import Sequential, Input
+
 
 def greet(name):
     return f"Hello, {name}!"
@@ -101,3 +103,23 @@ def display_dataset_info(dataset_name):
     print(f"Splits: {dataset_info.splits}")
     print(f"Dataset size: {dataset_info.dataset_size} bytes")
     print(f"Citation: {dataset_info.citation}")
+
+def create_and_compile_model(layer_sequence: Sequential):
+    """Creates and returns a model based on a function that provides a layer sequence."""
+
+    # Get the base Sequential model
+    model = Sequential([
+        Input(shape=(1,)),  # Input layer for single-dimensional input
+    ])
+
+    # Add layers from the provided layer sequence to our model
+    for layer in layer_sequence.layers:
+        model.add(layer)
+
+    model.compile(optimizer='adam', loss='mse', metrics=['mae'])
+    return model
+
+
+def save_model(model: Sequential, file_path: str):
+    """Saves the provided Keras model to the specified file path."""
+    model.save(file_path)

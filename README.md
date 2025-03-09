@@ -3,7 +3,7 @@
 Test of git push from clean env
 And a second test change from jims-ml-sandbox-new
 
-### My Python Environment
+## My Python Environment
 
 Python is king in the ML world.
 
@@ -13,9 +13,16 @@ Python is king in the ML world.
 * Installed `/opt/homebrew/Cellar/python@3.13/3.13.1/Frameworks/Python.framework/Versions/3.13/bin/python3.13`
 * Homebrew creates many sym links in `/opt/homebrew/bin/python*`
 
-### Special requirements for building and running `tensorflow` as of `tensorflow` version `2.18.0`
+## `venv`'s
 
-#### Building `tensorflow`
+Use `pip -r requirements.txt` to control my default `.venv`.
+
+Use a special `.venv-keras2` venv and associated ipykernel to which I set Hugging Face notebooks
+or any that require Keras 2 (older). My default venv is Keras 3.
+
+## Special requirements for building and running `tensorflow` as of `tensorflow` version `2.18.0`
+
+### Building `tensorflow`
 
 * **Python**: tensorflow has a Python version upper limit of `3.12`
 * The tensorflow build calls into a package that looks for the system environment variable
@@ -25,13 +32,13 @@ Python is king in the ML world.
     * Installed 6.5 in`/usr/local/bin/bazel`.
     * Point your PyCharm or CLion IDE settings to that bazel binary when building tensorflow.
 
-#### Running `tensorflow`
+### Running `tensorflow`
 
 * **numpy**: A Python core package. Some code in `tensorflow` cannot use the latest `numpy-2.0.2` because `tensorflow`
   references a symbol, `numpy.bool`, that was removed in numpy-2.x in favor of the generic type `bool`. Therefore, i
   have pinned `numpy` to `1.23.5` in `requirements.txt`.
 
-### Tools for ML
+## Tools for ML
 
 For **general-purpose dataset exploration** (without extra coding), start with **PandasGUI** or **D-Tale** for
 CSVs/tables.
@@ -40,7 +47,7 @@ If **TensorFlow-specific datasets** need exploration, use **Facet** by Google fo
 
 Consider **Dash/Plotly** if you want to create a custom GUI with interactive views.
 
-### Core Python Libs for ML
+## Core Python Libs for ML
 
 `numpy` is Python's core math library. Includes operations against Python `ndarray`s.
 
@@ -54,7 +61,7 @@ Consider **Dash/Plotly** if you want to create a custom GUI with interactive vie
 framework designed to provide a high-performance standard for working with in-memory columnar data, which is useful for
 big data processing. `pyarrow` is the Python binding for Apache Arrow.
 
-### ML Engines and High-Level ML Libraries
+## ML Engines and High-Level ML Libraries
 
 Engines with APIs (usually Python). Allows you to train a model for practical use.
 
@@ -84,58 +91,154 @@ Associated with TensorFlow.
 Provider: Pandas  
 Type: Dataset building
 
-### Machine-learning User-facing Products
+## Standard Training Datasets available programmatically via Python packages
 
-#### Provider: Mistral
+### `tensorflow_datasets` - Best for standard model training and testing.
+
+- **Scope**: `TFDS` offers access to a much wider and diverse collection of datasets. It is designed to provide modular,
+  scalable, and efficient dataset utilities for both TensorFlow and non-TensorFlow workflows.
+- **Nature of Datasets**: Includes a range of datasets:
+    - Computer Vision: Image classification, object detection (e.g., `imagenet`, `mnist`, `cifar`).
+    - Natural Language Processing: Text classification, translation (e.g., `imdb_reviews`, `wmt_translate`).
+    - Audio, 3D, Reinforcement Learning, etc.
+    - Extremely large datasets (e.g., ImageNet, CommonCrawl datasets) in addition to small/medium-sized ones.
+
+- **Data Pipeline Support**:
+    - Returns `tf.data.Dataset` objects directly, making it compatible with TensorFlow's `input pipeline`.
+    - Enables seamless batching, shuffling, and optimized loading (e.g., prefetching, caching).
+  
+- **Size and Scalability**:
+    - Handles datasets of all sizes, including massive ones that require streaming from disk or online storage.
+    - Datasets are downloaded and cached locally, and subsets (`train`, `test`, etc.) or specific splits can be loaded
+      on demand.
+
+- **Preprocessing Integration**:
+    - High-level preprocessing options (e.g., normalization, tokenization) are often built into datasets.
+    - Provides rich metadata (`dataset.info`) and compatibility for additional data augmentations.
+
+- **Customization**: Supports user-extended datasets or custom splits. Very flexible for research-grade projects.
+
+### `keras.datasets` -
+
+- **Scope**: The `keras.datasets` module provides access to a limited number of popular, pre-packaged,
+  small-to-medium-sized datasets that are widely used for deep learning.
+- **Nature of Datasets**: These are well-known datasets, mainly for beginners, and include:
+    - **MNIST**: Handwritten digits classification task.
+    - **Fashion MNIST**: Clothing item classification task (like MNIST, but with clothing images).
+    - **CIFAR-10** & **CIFAR-100**: Object classification datasets with natural images.
+    - **IMDB**: Sentiment analysis on movie reviews (binary classification).
+    - **Reuters**: News topic classification.
+    - **Boston Housing**: Regression dataset for housing price prediction.
+
+- **Preprocessing Integration**: The datasets are returned in the form of numpy arrays, already divided into `train` and
+  `test` sets:
+
+- **Integration with Keras Workflow**: The datasets are specifically designed to fit neatly into Keras and are usually
+  small enough to load into memory for training.
+- **Size and Simplicity**:
+    - Datasets in `keras.datasets` tend to be small or limited, suitable for prototyping and initial testing.
+    - They do not require heavy preprocessing or complex data manipulation pipelines (like shuffling, batching, etc.).
+
+- **Customization**: Limited functionality compared to TFDS. The user has to manually preprocess or augment the data if
+  needed.
+
+### `scipy.datasets` - only three, but very useful. Two images and an EKG datapoints.
+
+### `sklearn.datasets` - a smaller set than tensor flow. Contains small, real-world, sparse, synthetic generators.
+
+Use sklearn to access `OpenML` datasets. A moderate mix with good metadata.
+
+
+## Machine-learning User-facing Products
+
+### Provider: Mistral
 
 User-Facing Product: Data Row 3 Col 2  
 Engine: Data Row 3 Col 3  
 Notes:
 
-#### Provider: Cohere
+### Provider: Cohere
 
 User-Facing Product:  
 Engine:  
 Website: [cohere.com]()  
 Notes:
 
-#### Provider: Hugging Face
+### Provider: Hugging Face
 
 User-Facing Product:  
 Engine:  PyTorch, TensorFlow, JAX deep learning
 Website: [huggingface.co]()  
 Notes:
 
-#### Provider: Inflection AI
+### Provider: Inflection AI
 
 User-Facing Product: Pi (a chatbot, personal assistant)  
 Engine:  
 Website: [inflection.ai]()  
 Notes:
 
-#### Provider: Perplexity AI
+### Provider: Perplexity AI
 
 User-Facing Product: Pi (a chatbot, personal assistant)  
 Engine:  
 Website: [www.perplexity.ai]()  
 Notes:
 
-### General Machine-Learning Resources
+## Kinds of Layers
 
-#### Resource: Kaggle
+Regression (Dense) - Linear regression of inputs to outputs (x,y data points)
+
+RelU
+
+Convolution
+
+## Kinds of Neural Nets (Architectures)
+
+### BERT
+
+### Convolution Neural Network (CNN)
+
+For image classification
+Mask R-CNN
+Faster R-CNN
+
+### GPT (Generative Pre-Trained Transform)
+
+### Long Short-Term Memory (LSTM)
+
+### Multi-Layer Perceptron (MLP)
+
+For tabular regression.
+
+### Natural Language Processing (NLP)
+
+### Residual Network (ResNet)
+
+Helps avoid the 'vanishing gradient' problem in processing through deep layers.
+
+ResNet-18, -34, -50, -101
+
+### VGG
+
+### YOLO
+
+## General Machine-Learning Resources
+
+### Resource: Kaggle
 
 [kaggle.com]()  
 An AI & ML community started by Google.  
 Dataset library.
 
-#### Microsoft: COCO
+### Microsoft: COCO
 
 Dataset collection.
 
 Labelbox - dataset annotation
 Roboflow - dataset annotation
 
-### General Code Approach
+## General Code Approach
 
 1. Build datasets for training and testing the final model
 2. Define a training pipeline in terms of a sequence of TF Layers
@@ -144,17 +247,17 @@ Roboflow - dataset annotation
 5. (optionally save the trained model)
 6. Query the trained model
 
-#### NumPy Datasets (ndarray)
+### NumPy Datasets (ndarray)
 
 - Use numpy to create training dataset and inputs in the form of python `ndarray`.
 - Pipe numpy ndarrays -> tf Dataset, for training, validation, and testing.
 - Use Pandas for text file read and write (CSV, etc)
 
-#### TensorFlow Datasets (tf.data.Dataset)
+### TensorFlow Datasets (tf.data.Dataset)
 
 Datasets from tensorflow_datasets are of type tf.data.Dataset (and optional tfds.core.DatasetInfo).
 
-#### Use Keras as Facade into TensorFlow Layers
+### Use Keras as Facade into TensorFlow Layers
 
 1. Use keras to define processing layers and create a model.
 2. Use keras to define an optimizer and loss function.
@@ -162,51 +265,4 @@ Datasets from tensorflow_datasets are of type tf.data.Dataset (and optional tfds
 4. Train the model by calling model.fit().      <=== THIS IS WHERE THE CPU CHURNS and SPIKES
 5. Test the model using known expected outputs
 5. For all queries, call model.predict( ) with inputs
-
-### Problems
-
----
-#### Problem 1: A predictive n-dimensional data point model
-
-Description: Load a 2D x, y datapoint set that is roughly quadratic and have the model generate y
-values given x.
-
-Variants:
-
-* 2 points should produce a simple linear essentially perfect model
-* a scatter of many points with linear model should fit the best line
-* 3 points to define a quadratic with 2nd order model
-* Use this simple case as a way to understand standard Keras layers
-* Write a custom Keras layer, possibly a finite element solver
-
-
-
-
-
-Train: Associate text descriptions with 2D images
-Output: 2D bitmaps that fit a query. The model assembles images
-wherein keywords in the query are matched to
-
----
-#### Problem 4: Local Document knowledge store
-
-A model takes in a bunch of general information in the form of source and word documents, emails.
-The model can then 'search' for concepts, present them by data, author,
-source document.
-
-Provide a timeline of documents on a given subject.
-
-For example, a set of state laws and regulations.
-
-Instead of a simple statistical model in which the applications are just the most commonly used, this will factor in day
-of the week time of day animal favor, recent history over older history
-
-- Time of day
-- Location GPS
-- Day of week
-
-
-
-#### Problem 5: Voice and Music generator
-
 
