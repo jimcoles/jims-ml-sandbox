@@ -187,11 +187,13 @@ Notes:
 
 ## Kinds of Layers
 
-Regression (Dense) - Linear regression of inputs to outputs (x,y data points)
+Fully-connected (Dense) - A simple case is linear. For statistical correlation of known independent
+variables to some desired attribute, e.g., if a view likes content A B and C, he is likely to also
+like X Y Z, based on other user's likes.
 
-RelU
+activation: RelU
 
-Convolution
+Convolution - 
 
 ## Kinds of Neural Nets (Architectures)
 
@@ -214,8 +216,9 @@ For tabular regression.
 ### Natural Language Processing (NLP)
 
 ### Residual Network (ResNet)
-
-Helps avoid the 'vanishing gradient' problem in processing through deep layers.
+I think this helps leap around complex expensive computation layers.
+Helps avoid the 'vanishing gradient' problem in processing through deep layers. I think 
+vanishing gradient might mean smoothing.
 
 ResNet-18, -34, -50, -101
 

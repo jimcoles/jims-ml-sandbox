@@ -1,19 +1,18 @@
+#  Copyright (c) 2025 James K. Coles (jameskcoles@gmail.com). All rights reserved.
+
 """
 Jim's Keras utilities.
 """
 
-#  Copyright (c) 2025 James K. Coles (jameskcoles@gmail.com). All rights reserved.
-import keras
-from typing import Tuple
 from functools import reduce
+from typing import Tuple, List
 
 import numpy as np
 from keras import Layer, Input, Model
 from keras import callbacks
 from keras.src.layers import Dense
 
-
-def compose_model(input_fn: Input, proc_layers: [Layer], verbose=False) -> Tuple[Model, Input]:
+def compose_model(input_fn: Input, proc_layers: List[Layer], verbose=False) -> Tuple[Model, Input]:
     """
     Compose layers of a Keras neural network by sequentially applying a list of layers to an input.
     The function takes an input tensor and a list of layers, applying the layers in the
@@ -71,7 +70,7 @@ class KernelLoggerCallback(callbacks.Callback):
         print(f"\nEpoch {epoch + 1}: Kernel weights for layer '{dense_layer.name} path={dense_layer.path}':"
               f"\n{kernel}"
               f"\nBias weights for layer '{bias}':")
-        ...
+
         if self.save_file:
             # Save kernel as a .npy file
             np.save(f"kernel_epoch_{epoch + 1}.npy", kernel)

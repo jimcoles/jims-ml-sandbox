@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/jkcsoft/ml/test_results_db/ml_results_database.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/sql/create_tables.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/sql/drop_tables.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/sql/insert_test_measurement.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/sql/insert_test_result.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/sql/layer_params.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/sql/results.sql" dialect="SQLite" />
+    <file url="PROJECT" dialect="SQLite" />
+  </component>
+</project>

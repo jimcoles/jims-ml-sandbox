@@ -2,8 +2,7 @@
 
 import unittest
 
-from jkcsoft.log_util import logger
-
+from jkcsoft.ml.log_utils import logger
 
 class MyTestCase(unittest.TestCase):
 

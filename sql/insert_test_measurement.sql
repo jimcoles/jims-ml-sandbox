@@ -1,0 +1,1 @@
+INSERT INTO test_measurement (parent_id, name, value) VALUES (?, ?, ?)
